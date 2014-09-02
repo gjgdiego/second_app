@@ -4,10 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for development test only
-group :development do
-  gem 'sqlite3', '1.3.5'
+group :development, :test do
+  gem 'sqlite3'
 end
-gem 'sqlite3', '1.3.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
